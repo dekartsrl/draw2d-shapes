@@ -1,0 +1,216 @@
+[
+  {
+    "type": "shape_designer.figure.ExtPolygon",
+    "id": "80dfa1cf-b0a1-f96e-e5df-d487f654857d",
+    "x": 423,
+    "y": 108,
+    "width": 119,
+    "height": 88,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "baseClass": "draw2d.SetFigure",
+      "code": "/**\n * by 'Draw2D Shape Designer'\n *\n * Custom JS code to tweak the standard behaviour of the generated\n * shape. add your custome code and event handler here.\n *\n *\n */\ntestShape = testShape.extend({\n\n    init: function(attr, setter, getter){\n         this._super(attr, setter, getter);\n\n         // your special code here\n    },\n\n    /**\n     *  Called by the simulator for every calculation\n     *  loop\n     *  @required\n     **/\n    calculate:function()\n    {\n    },\n\n\n    /**\n     *  Called if the simulation mode is starting\n     *  @required\n     **/\n    onStart:function()\n    {\n    },\n\n    /**\n     *  Called if the simulation mode is stopping\n     *  @required\n     **/\n    onStop:function()\n    {\n    }\n});"
+    },
+    "cssClass": "shape_designer_figure_PolyRect",
+    "ports": [],
+    "bgColor": "#FFFFFF",
+    "color": "#303030",
+    "stroke": 1,
+    "radius": 0,
+    "dasharray": null,
+    "vertices": [
+      {
+        "x": 454.17497732705186,
+        "y": 150
+      },
+      {
+        "x": 423,
+        "y": 150
+      },
+      {
+        "x": 423,
+        "y": 188
+      },
+      {
+        "x": 472.9935802577938,
+        "y": 188
+      },
+      {
+        "x": 476,
+        "y": 190.10511776651532
+      },
+      {
+        "x": 482.9511136936706,
+        "y": 193.34647531457998
+      },
+      {
+        "x": 490.3594801826551,
+        "y": 195.33154113253715
+      },
+      {
+        "x": 498,
+        "y": 196
+      },
+      {
+        "x": 505.64051981734497,
+        "y": 195.33154113253715
+      },
+      {
+        "x": 513.0488863063295,
+        "y": 193.34647531457998
+      },
+      {
+        "x": 520,
+        "y": 190.1051177665153
+      },
+      {
+        "x": 526.2826548262077,
+        "y": 185.70595549723504
+      },
+      {
+        "x": 531.705955497235,
+        "y": 180.28265482620773
+      },
+      {
+        "x": 536.1051177665153,
+        "y": 174
+      },
+      {
+        "x": 539.34647531458,
+        "y": 167.04888630632942
+      },
+      {
+        "x": 541.3315411325372,
+        "y": 159.64051981734494
+      },
+      {
+        "x": 542,
+        "y": 152
+      },
+      {
+        "x": 541.3315411325372,
+        "y": 144.35948018265506
+      },
+      {
+        "x": 539.34647531458,
+        "y": 136.95111369367058
+      },
+      {
+        "x": 536.1051177665153,
+        "y": 130
+      },
+      {
+        "x": 531.705955497235,
+        "y": 123.71734517379225
+      },
+      {
+        "x": 526.2826548262077,
+        "y": 118.29404450276496
+      },
+      {
+        "x": 520,
+        "y": 113.89488223348468
+      },
+      {
+        "x": 513.0488863063295,
+        "y": 110.65352468542002
+      },
+      {
+        "x": 505.6405198173449,
+        "y": 108.66845886746285
+      },
+      {
+        "x": 498,
+        "y": 108
+      },
+      {
+        "x": 490.3594801826551,
+        "y": 108.66845886746285
+      },
+      {
+        "x": 482.9511136936706,
+        "y": 110.65352468542002
+      },
+      {
+        "x": 476,
+        "y": 113.89488223348471
+      },
+      {
+        "x": 469.71734517379224,
+        "y": 118.29404450276498
+      },
+      {
+        "x": 464.29404450276496,
+        "y": 123.7173451737923
+      },
+      {
+        "x": 459.8948822334847,
+        "y": 130
+      },
+      {
+        "x": 456.65352468542005,
+        "y": 136.95111369367058
+      },
+      {
+        "x": 454.66845886746285,
+        "y": 144.3594801826551
+      },
+      {
+        "x": 454.17497732705186,
+        "y": 150
+      }
+    ],
+    "blur": 0,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.SizeFilter"
+      },
+      {
+        "name": "shape_designer.filter.StrokeFilter"
+      },
+      {
+        "name": "shape_designer.filter.FillColorFilter"
+      }
+    ]
+  },
+  {
+    "type": "shape_designer.figure.ExtPort",
+    "id": "2feeecfb-bce0-0303-c66e-8d33bb256f21",
+    "x": 421,
+    "y": 167,
+    "width": 10,
+    "height": 10,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "name": "Port",
+      "type": "Input",
+      "direction": 3,
+      "fanout": 20
+    },
+    "cssClass": "shape_designer_figure_ExtPort",
+    "ports": [],
+    "bgColor": "#37B1DE",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "dasharray": null,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.FanoutFilter"
+      },
+      {
+        "name": "shape_designer.filter.PortDirectionFilter"
+      },
+      {
+        "name": "shape_designer.filter.PortTypeFilter"
+      }
+    ]
+  }
+]
