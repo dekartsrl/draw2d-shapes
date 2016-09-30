@@ -1,0 +1,75 @@
+[
+  {
+    "type": "shape_designer.figure.PolyCircle",
+    "id": "70e3b0ba-77b3-0251-7ffe-9c3f97766c17",
+    "x": 121,
+    "y": 81,
+    "width": 39,
+    "height": 39,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "baseClass": "draw2d.SetFigure",
+      "code": "/**\n * by 'Draw2D Shape Designer'\n *\n * Custom JS code to tweak the standard behaviour of the generated\n * shape. add your custome code and event handler here.\n *\n *\n */\ntestShape = testShape.extend({\n\n    init: function(attr, setter, getter){\n         this._super(attr, setter, getter);\n\n         // your special code here\n    },\n\n    /**\n     *  Called by the simulator for every calculation\n     *  loop\n     *  @required\n     **/\n    calculate:function()\n    {\n    },\n\n\n    /**\n     *  Called if the simulation mode is starting\n     *  @required\n     **/\n    onStart:function()\n    {\n    },\n\n    /**\n     *  Called if the simulation mode is stopping\n     *  @required\n     **/\n    onStop:function()\n    {\n    }\n});",
+      "name": "Circle"
+    },
+    "cssClass": "shape_designer_figure_PolyCircle",
+    "ports": [],
+    "bgColor": "#FFFFFF",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0,
+    "dasharray": null,
+    "blur": 0,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.SizeFilter"
+      },
+      {
+        "name": "shape_designer.filter.FillColorFilter"
+      },
+      {
+        "name": "shape_designer.filter.StrokeFilter"
+      }
+    ]
+  },
+  {
+    "type": "shape_designer.figure.ExtPort",
+    "id": "e0ca12c8-65f6-bd96-2917-fd5466490631",
+    "x": 115.85116091591243,
+    "y": 95.5,
+    "width": 10,
+    "height": 10,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "name": "Port",
+      "type": "Hybrid",
+      "direction": null,
+      "fanout": 20
+    },
+    "cssClass": "shape_designer_figure_ExtPort",
+    "ports": [],
+    "bgColor": "#37B1DE",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "dasharray": null,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.FanoutFilter"
+      },
+      {
+        "name": "shape_designer.filter.PortDirectionFilter"
+      },
+      {
+        "name": "shape_designer.filter.PortTypeFilter"
+      }
+    ]
+  }
+]
